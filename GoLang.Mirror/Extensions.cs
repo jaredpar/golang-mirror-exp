@@ -19,5 +19,8 @@ namespace GoLang.Mirror
             var stream = new MemoryStream();
             await blobClient.UploadAsync(stream);
         }
+
+        public static string ToRfc3339String(this DateTimeOffset dateTime) =>
+            dateTime.UtcDateTime.ToString("yyyy-MM-ddTHH:mm:ssZ");
     }
 }

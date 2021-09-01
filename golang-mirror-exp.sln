@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoLang.Mirror", "GoLang.Mirror\GoLang.Mirror.csproj", "{902DCE94-E8C2-45D1-9039-B1D20AC769C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoLang.Mirror", "GoLang.Mirror\GoLang.Mirror.csproj", "{902DCE94-E8C2-45D1-9039-B1D20AC769C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scratch", "Scratch\Scratch.csproj", "{208718B0-481B-4816-9120-57DB3BEBFEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scratch", "Scratch\Scratch.csproj", "{208718B0-481B-4816-9120-57DB3BEBFEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoLang.Functions", "GoLang.Functions\GoLang.Functions.csproj", "{82E122DE-397E-46E6-8BD6-A3D322C96E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{208718B0-481B-4816-9120-57DB3BEBFEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208718B0-481B-4816-9120-57DB3BEBFEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208718B0-481B-4816-9120-57DB3BEBFEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E122DE-397E-46E6-8BD6-A3D322C96E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E122DE-397E-46E6-8BD6-A3D322C96E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E122DE-397E-46E6-8BD6-A3D322C96E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E122DE-397E-46E6-8BD6-A3D322C96E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
