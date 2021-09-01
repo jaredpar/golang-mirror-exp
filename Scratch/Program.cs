@@ -19,6 +19,8 @@ namespace Scratch
             await containerClient.CreateIfNotExistsAsync();
             var packageMirrorUtil = new PackageMirrorUtil(containerClient);
             await packageMirrorUtil.MirrorPackageVersionAsync("github.com/jaredpar/greetings", "v0.1.1");
+            await packageMirrorUtil.MirrorPackageVersionAsync("github.com/jaredpar/greetings", "v0.1.1", overwrite: true);
+            await packageMirrorUtil.MirrorPackageVersionAsync("github.com/jaredpar/greetings", "v0.1.1", overwrite: false);
 
 
         }
